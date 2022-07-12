@@ -6,7 +6,7 @@ class Config
     public static function get(string $name)
     {
         $configs = include __DIR__ . '/configs.php';
-        $keys = explode('.', $name, $configs);
+        $keys = explode('.', $name);
 
        return self::findByKeys($keys, $configs);
 

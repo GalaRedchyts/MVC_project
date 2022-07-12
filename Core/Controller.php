@@ -10,4 +10,5 @@ abstract class Controller
     }
 
     public function after(string $action) {}
+
 }

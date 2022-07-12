@@ -16,6 +16,7 @@
                             <input type="password" name="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
+                        <a href="<?= SITE_URL . '/registration'?>">Create an account</a>
                     </form>
                 </div>
             </div>
