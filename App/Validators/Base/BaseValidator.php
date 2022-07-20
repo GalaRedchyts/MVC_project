@@ -7,7 +7,7 @@ class BaseValidator
     protected array $errors = [];
     protected array $rules = [];
 
-    public function validate($fields): bool
+    public function validate(array $fields): bool
     {
         foreach ($fields as $key => $field) {
             if (preg_match($this->rules[$key], $field)) {

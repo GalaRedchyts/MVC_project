@@ -27,7 +27,7 @@ class AuthController extends Controller
 
     public function logout()
     {
-        if (!SessionHelper::isUserLoggedIn()) {
+        if (SessionHelper::isUserLoggedIn()) {
             SessionHelper::destroy();
         }
         redirect();
