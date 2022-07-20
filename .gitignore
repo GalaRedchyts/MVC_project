@@ -3,3 +3,4 @@
 .env
 /composer.phar
 .DS_Store
+public/assets/images
